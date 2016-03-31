@@ -24,3 +24,5 @@ netstat -rn | awk '/default/ && /:/ { print $2}' | sudo tee -a /etc/mygate
 ```
 sudo shutdown -r now
 ```
+
+NO ADDITION
